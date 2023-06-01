@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  react-app:
+    container_name: web_muc_japan
+    image: web_muc_japan-img
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
