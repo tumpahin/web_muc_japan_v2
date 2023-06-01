@@ -9,7 +9,7 @@ services:
       context: .
       dockerfile: Dockerfile.dev
     ports:
-      - "1001:3000"
+      - "81:3000"
     volumes:
       - ./src:/app/src
     environment:
